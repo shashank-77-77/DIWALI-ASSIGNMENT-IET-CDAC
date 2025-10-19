@@ -1,2 +1,2 @@
-# SDMrepo
-REPO FOR sdm PAPER
+Diwali Assignment 2025
+IET CDAC PUNE
