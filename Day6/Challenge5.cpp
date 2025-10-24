@@ -10,8 +10,7 @@ vector<int> mergeSortedArrays(const vector<int> &nums1, const vector<int> &nums2
     vector<int> merged;
     int i = 0, j = 0;
     int n = nums1.size(), m = nums2.size();
-
-    // Two-pointer merge
+    
     while (i < n && j < m) {
         if (nums1[i] <= nums2[j]) {
             merged.push_back(nums1[i]);
@@ -22,7 +21,6 @@ vector<int> mergeSortedArrays(const vector<int> &nums1, const vector<int> &nums2
         }
     }
 
-    // Append remaining elements
     while (i < n) merged.push_back(nums1[i++]);
     while (j < m) merged.push_back(nums2[j++]);
 
