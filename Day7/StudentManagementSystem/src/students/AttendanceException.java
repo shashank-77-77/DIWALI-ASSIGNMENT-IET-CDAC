@@ -1,0 +1,13 @@
+package students;
+
+// AttendanceException.java
+public class AttendanceException extends Exception {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public AttendanceException(String message) {
+        super(message);
+    }
+}
