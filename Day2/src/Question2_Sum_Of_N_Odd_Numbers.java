@@ -1,7 +1,3 @@
-// Sum of first n odd numbers 
-// Input: Integer n 
-// Output: Sum of first n odd numbers 
-
 import java.util.Scanner;
 
 public class Question2_Sum_Of_N_Odd_Numbers {

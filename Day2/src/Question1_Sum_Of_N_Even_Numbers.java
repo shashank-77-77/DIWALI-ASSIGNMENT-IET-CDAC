@@ -1,7 +1,3 @@
-//Sum of first n even numbers 
-//Input: Integer n 
-//Output: Sum of first n even numbers 
-
 import java.util.Scanner;
 
 public class Question1_Sum_Of_N_Even_Numbers {
